@@ -236,7 +236,7 @@ hist(imputed_stepsPerDay$steps)
 
 
 ```r
-mean(stepsPerDay$steps, na.rm=TRUE)
+mean(stepsPerDay$steps)
 ```
 
 ```
@@ -252,7 +252,7 @@ mean(imputed_stepsPerDay$steps, na.rm=TRUE)
 ```
 
 ```r
-median(stepsPerDay$steps, na.rm=TRUE)
+median(stepsPerDay$steps)
 ```
 
 ```

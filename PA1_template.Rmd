@@ -120,10 +120,10 @@ hist(imputed_stepsPerDay$steps)
 ```
 
 ```{r Compare mean median imputed data}
-mean(stepsPerDay$steps, na.rm=TRUE)
+mean(stepsPerDay$steps)
 mean(imputed_stepsPerDay$steps, na.rm=TRUE)
 
-median(stepsPerDay$steps, na.rm=TRUE)
+median(stepsPerDay$steps)
 median(imputed_stepsPerDay$steps, na.rm=TRUE)
 ```
 
